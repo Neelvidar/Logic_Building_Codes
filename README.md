@@ -23,9 +23,10 @@ This repository holds the actual logic code behind the core concepts practiced i
 ```
 Logic_Building_Codes/
 │
-├── C/
-├── CPP/
-├── Java/
+├── C
+├── C++
+├── Java
+├── Data Structure
 └── README.md
 ```
 
