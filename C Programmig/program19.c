@@ -1,6 +1,6 @@
+#include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include<stdbool.h>
 
 bool CheckEven(int iNo)
 {
@@ -24,7 +24,7 @@ int main()
 
     bRet = CheckEven(iValue);
 
-    if(bRet == true)
+    if (bRet == true)
     {
         printf("It is even\n");
     }
