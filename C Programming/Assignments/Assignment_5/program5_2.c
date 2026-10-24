@@ -1,3 +1,18 @@
+//////////////////////////////////////////////////////////
+//
+//  Function Name: CheckLeapyear
+//  Description  : Accepts a year from the user and checks
+//                 whether it is a leap year. A year is a
+//                 leap year if it is divisible by 400, or
+//                 divisible by 4 but not by 100.
+//  Input        : Integer (the year to check)
+//  Output       : Prints "It is a Leap Year" or
+//                 "It is not a leap year" on the screen
+//  Date         : 21/10/2026
+//  Author       : Neel Janardan Vidar
+//
+//////////////////////////////////////////////////////////
+
 #include <stdio.h>
 #include <stdlib.h>
 

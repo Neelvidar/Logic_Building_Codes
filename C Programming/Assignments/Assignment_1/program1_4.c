@@ -1,4 +1,17 @@
-// number is Divisible by or not
+//////////////////////////////////////////////////////////
+//
+//  Function Name: Check
+//  Description  : Checks whether the given number is
+//                 divisible by 5 using the modulus (%)
+//                 operator
+//  Input        : Integer (the number to check)
+//  Output       : BOOL (TRUE if divisible by 5,
+//                 FALSE otherwise)
+//  Date         : 18/10/2026
+//  Author       : Neel Janardan Vidar
+//
+//////////////////////////////////////////////////////////
+
 #include <stdio.h>
 
 typedef int BOOL;

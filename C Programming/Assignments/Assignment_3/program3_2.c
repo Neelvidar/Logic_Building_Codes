@@ -1,3 +1,21 @@
+//////////////////////////////////////////////////////////
+//
+//  Function Name: DisplayFactor
+//  Description  : Accepts a number from the user and
+//                 prints its factors that are 1 or even,
+//                 checking from 1 up to half of the number.
+//                 A negative number is converted to
+//                 positive first.
+//  Input        : Integer (the number whose factors are
+//                 to be displayed)
+//  Output       : Prints the factors (1 and even factors)
+//                 on the screen
+//                 (for 12 it prints 1 2 4 6)
+//  Date         : 20/10/2026
+//  Author       : Neel Janardan Vidar
+//
+//////////////////////////////////////////////////////////
+
 #include <stdio.h>
 
 void DisplayFactor(int iNo)

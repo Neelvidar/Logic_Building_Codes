@@ -1,3 +1,18 @@
+//////////////////////////////////////////////////////////
+//
+//  Function Name: FindGreater
+//  Description  : Accepts three numbers from the user and
+//                 finds the greatest of them using
+//                 if / else-if / else conditions
+//  Input        : Integer (first number),
+//                 Integer (second number),
+//                 Integer (third number)
+//  Output       : Prints the greatest number on the screen
+//  Date         : 21/10/2026
+//  Author       : Neel Janardan Vidar
+//
+//////////////////////////////////////////////////////////
+
 #include <stdio.h>
 #include <stdlib.h>
 

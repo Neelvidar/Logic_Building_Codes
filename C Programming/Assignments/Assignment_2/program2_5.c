@@ -1,3 +1,17 @@
+
+//////////////////////////////////////////////////////////
+//
+//  Function Name: ChkEven
+//  Description  : Checks whether the given number is even
+//                 using the modulus (%) operator
+//  Input        : Integer (the number to check)
+//  Output       : BOOL (TRUE if the number is even,
+//                 FALSE if it is odd)
+//  Date         : 19/10/2026
+//  Author       : Neel Janardan Vidar
+//
+//////////////////////////////////////////////////////////
+
 #include <stdio.h>
 
 #define TRUE 1

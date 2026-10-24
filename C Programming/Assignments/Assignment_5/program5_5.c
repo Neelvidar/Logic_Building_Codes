@@ -1,3 +1,19 @@
+//////////////////////////////////////////////////////////
+//
+//  Function Name: CheckCharacterType
+//  Description  : Accepts a character from the user and
+//                 checks whether it is an uppercase
+//                 alphabet, lowercase alphabet, digit or
+//                 special character using ASCII ranges
+//  Input        : Character (the character to check)
+//  Output       : Prints "Uppercase Alphabet",
+//                 "Lowercase Alphabet", "Digit" or
+//                 "Special Character" on the screen
+//  Date         : 21/10/2026
+//  Author       : Neel Janardan Vidar
+//
+//////////////////////////////////////////////////////////
+
 #include <stdio.h>
 #include <stdlib.h>
 

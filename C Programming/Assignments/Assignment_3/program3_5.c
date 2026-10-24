@@ -1,3 +1,18 @@
+//////////////////////////////////////////////////////////
+//
+//  Function Name: ChkVowel
+//  Description  : Checks whether the given character is a
+//                 vowel (a, e, i, o, u in lowercase or
+//                 uppercase) by comparing it with each
+//                 character of a vowel string
+//  Input        : Character (the character to check)
+//  Output       : BOOL (TRUE if the character is a vowel,
+//                 FALSE otherwise)
+//  Date         : 20/10/2026
+//  Author       : Neel Janardan Vidar
+//
+//////////////////////////////////////////////////////////
+
 #include <stdio.h>
 
 typedef int BOOL;

@@ -1,3 +1,17 @@
+//////////////////////////////////////////////////////////
+//
+//  Function Name: CheckEvenOdd
+//  Description  : Accepts a number from the user and
+//                 checks whether it is even or odd using
+//                 the modulus (%) operator
+//  Input        : Integer (the number to check)
+//  Output       : Prints "It is Even number" or
+//                 "It is Odd Number" on the screen
+//  Date         : 20/10/2026
+//  Author       : Neel Janardan Vidar
+//
+//////////////////////////////////////////////////////////
+
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,3 +1,17 @@
+//////////////////////////////////////////////////////////
+//
+//  Function Name: CheckMultipleDivisibility
+//  Description  : Accepts a number from the user and checks
+//                 whether it is divisible by both 5 and 3,
+//                 by 5 only, by 3 only, or by neither
+//  Input        : Integer (the number to check)
+//  Output       : Prints which divisibility condition
+//                 is satisfied on the screen
+//  Date         : 21/10/2026
+//  Author       : Neel Janardan Vidar
+//
+//////////////////////////////////////////////////////////
+
 #include <stdio.h>
 #include <stdlib.h>
 

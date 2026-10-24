@@ -1,4 +1,14 @@
-// Division of 2 numbers
+//////////////////////////////////////////////////////////
+//
+//  Function Name: Divide
+//  Description  : Performs and prints division
+//  Input        : Integer,Integer
+//  Output       : Integer
+//  Date         : 18/10/2026
+//  Author       : Neel Janardan Vidar
+//
+//////////////////////////////////////////////////////////
+
 #include <stdio.h>
 
 int Divide(int iNo1, int iNo2)
