@@ -34,3 +34,4 @@ class program128 {
 
         System.out.println("Summation of digits : " + iRet);
     }
+}
