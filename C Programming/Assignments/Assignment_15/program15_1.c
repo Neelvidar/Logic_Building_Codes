@@ -2,8 +2,8 @@
 //
 //  Function Name: main
 //  Description  : Accepts a name from user and prints that name
-//  Input        : Piyush Khairnar
-//  Output       : Piyush Khairnar
+//  Input        : ABCD
+//  Output       : ABCD
 //  Date         : 04/11/2026
 //  Author       : Neel Janardan Vidar
 //
