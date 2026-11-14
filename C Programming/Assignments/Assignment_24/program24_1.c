@@ -2,7 +2,7 @@
 
 //////////////////////////////////////////////////////////
 //
-//  Function Name: struprx
+//  Function Name: ChkChar
 //  Description  : Accepts a string from user & 1 character and check character
 //                 is present in the string or not 
 //  Input        : AbCd & B 
