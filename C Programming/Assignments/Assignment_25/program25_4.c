@@ -3,10 +3,9 @@
 //////////////////////////////////////////////////////////
 //
 //  Function Name: ChkCapital
-//  Description  : Accepts a character from user & check whether it is Capital or Not 
-//                 print characters till Z
-//  Input        : A 
-//  Output       : A to Z 
+//  Description  : Accepts a character from user & check whether it is Special Symbol or Not 
+//  Input        : # 
+//  Output       : It is a Special Character
 //  Date         : 14/11/2026 
 //  Author       : Neel Janardan Vidar
 //
