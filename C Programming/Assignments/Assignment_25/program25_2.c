@@ -3,8 +3,8 @@
 //////////////////////////////////////////////////////////
 //
 //  Function Name: ChkCapital
-//  Description  : Accepts a character from user & check whether it is Capital or Not
-//  Input        : A
+//  Description  : Accepts a character from user & check whether it is Capital or not
+//  Input        : F
 //  Output       : It is Capital Character
 //  Date         : 14/11/2026
 //  Author       : Neel Janardan Vidar
@@ -18,7 +18,7 @@ typedef int BOOL;
 
 BOOL ChkCapital(char ch)
 {
-    if ((ch >= 65 && ch <= 90))
+    if (ch >= 65 && ch <= 90)
     {
         return TRUE;
     }
@@ -34,17 +34,17 @@ int main()
     BOOL bRet = FALSE;
 
     printf("Enter the character : ");
-    scanf("%c", &cValue);
+    scanf("%c",&cValue);
 
     bRet = ChkCapital(cValue);
 
-    if (bRet == TRUE)
+    if(bRet == TRUE)
     {
         printf("It is Capital Character");
     }
     else
     {
-        printf("It is not a Capital character");
+        printf("It is not a Capital Character");
     }
 
     return 0;
