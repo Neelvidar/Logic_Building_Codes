@@ -2,7 +2,7 @@
 
 //////////////////////////////////////////////////////////
 //
-//  Function Name: StrRevX
+//  Function Name: ChkAlpha
 //  Description  : Accepts a character from user & check whether it is Charcter or not
 //  Input        : A
 //  Output       : It is Character
