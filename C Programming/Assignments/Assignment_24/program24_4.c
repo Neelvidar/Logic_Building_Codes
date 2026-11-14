@@ -2,7 +2,7 @@
 
 //////////////////////////////////////////////////////////
 //
-//  Function Name: ChkChar
+//  Function Name: LastChar
 //  Description  : Accepts a string from user & 1 character and return
 //                 index of last occurence of that character
 //  Input        : AbCd & A
@@ -39,7 +39,7 @@ int main()
     printf("Enter The Character : ");
     scanf(" %c", &cValue);
 
-    iRet = ChkChar(arr, cValue);
+    iRet = LastChar(arr, cValue);
 
     printf("Character Location is : %d", iRet);
 
