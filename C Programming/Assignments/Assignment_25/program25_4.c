@@ -2,29 +2,30 @@
 
 //////////////////////////////////////////////////////////
 //
-//  Function Name: ChkCapital
-//  Description  : Accepts a character from user & check whether it is Special Symbol or Not 
-//  Input        : # 
-//  Output       : It is a Special Character
-//  Date         : 14/11/2026 
+//  Function Name: ChkSmall
+//  Description  : Accepts a character from user & check whether it is Small case or not
+//  Input        : g
+//  Output       : It is Small case Character
+//  Date         : 14/11/2026
 //  Author       : Neel Janardan Vidar
 //
 //////////////////////////////////////////////////////////
+
 #define TRUE 1
 #define FALSE 0
 
 typedef int BOOL;
-BOOL ChkSpecial(char ch)
+
+BOOL ChkSmall(char ch)
 {
-    if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z'))
+    if (ch >= 97 && ch <= 122)
     {
-       return FALSE; 
+        return TRUE;
     }
-    else 
+    else
     {
-        return TRUE;  
+        return FALSE;
     }
-    printf("\n");
 }
 
 int main()
@@ -33,17 +34,17 @@ int main()
     BOOL bRet = FALSE;
 
     printf("Enter the character : ");
-    scanf("%c", &cValue);
+    scanf("%c",&cValue);
 
-    bRet = ChkSpecial(cValue);
+    bRet = ChkSmall(cValue);
 
     if(bRet == TRUE)
     {
-        printf("It is a Special Character");
+        printf("It is Small case Character");
     }
     else
     {
-        printf("It is not a Special Character");
+        printf("It is not a Small case Character");
     }
 
     return 0;

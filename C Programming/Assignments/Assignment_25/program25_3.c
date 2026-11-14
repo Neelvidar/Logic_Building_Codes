@@ -2,44 +2,50 @@
 
 //////////////////////////////////////////////////////////
 //
-//  Function Name: ChkCapital
-//  Description  : Accepts a character from user & check whether it is Capital or Not 
-//                 print characters till Z
-//  Input        : A 
-//  Output       : A to Z 
-//  Date         : 14/11/2026 
+//  Function Name: ChkDigit
+//  Description  : Accepts a character from user & check whether it is Digit or not
+//  Input        : 7
+//  Output       : It is Digit
+//  Date         : 14/11/2026
 //  Author       : Neel Janardan Vidar
 //
 //////////////////////////////////////////////////////////
 
-void Display(char ch)
+#define TRUE 1
+#define FALSE 0
+
+typedef int BOOL;
+
+BOOL ChkDigit(char ch)
 {
-    if (ch >= 'A' && ch <= 'Z')
+    if (ch >= 48 && ch <= 57)
     {
-        for (char c = ch; c <= 'Z'; c++)
-            printf("%c ", c);
-    }
-    else if (ch >= 'a' && ch <= 'z')
-    {
-        for (char c = ch; c >= 'a'; c--)
-            printf("%c ", c);
+        return TRUE;
     }
     else
     {
-        printf("Please enter an alphabetic character.");
+        return FALSE;
     }
-
-    printf("\n");
 }
 
 int main()
 {
     char cValue = '\0';
+    BOOL bRet = FALSE;
 
     printf("Enter the character : ");
-    scanf("%c", &cValue);
+    scanf("%c",&cValue);
 
-    Display(cValue);
+    bRet = ChkDigit(cValue);
+
+    if(bRet == TRUE)
+    {
+        printf("It is Digit");
+    }
+    else
+    {
+        printf("It is not a Digit");
+    }
 
     return 0;
 }
