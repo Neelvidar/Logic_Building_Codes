@@ -2,29 +2,30 @@
 
 //////////////////////////////////////////////////////////
 //
-//  Function Name: ChkChar
+//  Function Name: FirstChar
 //  Description  : Accepts a string from user & 1 character and return
-//  character's
-//                 frequency
+//  character's frequency
 //  Input        : AbCd & A
 //  Output       : 2
 //  Date         : 13/11/2026
 //  Author       : Neel Janardan Vidar
 //
 //////////////////////////////////////////////////////////
-int ChkChar(char *str, char ch)
+
+int FirstChar(char *str, char ch)
 {
-    int iCount = 0;
+    int index = 0;
 
     while (*str != '\0')
     {
         if (*str == ch)
-            iCount++;
+            return index;
 
         str++;
+        index++;
     }
 
-    return iCount;
+    return -1;
 }
 
 int main()
@@ -39,9 +40,9 @@ int main()
     printf("Enter The Character : ");
     scanf(" %c", &cValue);
 
-    iRet = ChkChar(arr, cValue);
+    iRet = FirstChar(arr, cValue);
 
-    printf("Character Frequency is : %d", iRet);
+    printf("Character location is : %d", iRet);
 
     return 0;
 }
