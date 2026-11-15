@@ -6,7 +6,7 @@
 //  Description  : Accepts a string from user & 1 character and return character's
 //                 frequency
 //  Input        : AbCd & A
-//  Output       : 2
+//  Output       : 1
 //  Date         : 13/11/2026
 //  Author       : Neel Janardan Vidar
 //
