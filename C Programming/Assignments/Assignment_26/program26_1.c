@@ -13,7 +13,7 @@
 
 #include <stdio.h>
 
-void DisplayASCII(void)
+void DisplayASCII()
 {
     for (int i = 0; i <= 255; i++)
     {
