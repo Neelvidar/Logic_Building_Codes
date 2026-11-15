@@ -13,7 +13,6 @@
 
 void Display(char ch)
 {
-
     printf("Decimal: %d\t  Octal: %o\t  Hexadecimal: %x\t", ch, ch, ch);
 }
 
