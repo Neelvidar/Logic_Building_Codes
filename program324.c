@@ -17,7 +17,7 @@ int main()
 
     for (iCnt = 0; iCnt < iSize; iCnt++)
     {
-        scanf("%d\n", &ptr[iCnt]);
+        scanf("%d", &ptr[iCnt]);
     }
 
     // Step 3 : Free The Memory
