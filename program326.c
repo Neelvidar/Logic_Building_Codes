@@ -29,7 +29,7 @@ int main()
 
     for (iCnt = 0; iCnt < iSize; iCnt++)
     {
-        scanf("%d\n", &ptr[iCnt]);
+        scanf("%d", &ptr[iCnt]);
     }
 
     Display( ptr,iSize);
